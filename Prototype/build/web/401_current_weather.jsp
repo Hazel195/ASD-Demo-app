@@ -24,12 +24,12 @@
         %>
         <div class="content">
             <br><br>
-            <div class="header"> <h1>Current Weather</h1></div>
+            <center><div class="header"> <h1>Current Weather</h1></div><br>
             <h2> Currently in <%=City %>, <%=Country%></h2>
             <h2> <%=Description %></h2>
             <h2> With Current Temperature <%=CurrentTempt %></h2>
             <h2> And Wind Speed <%=WindSpeed %></h2>
-        
+        </center>
          <div class="sidenav">
             <br><br>
             <a href="index.html">HOME</a>

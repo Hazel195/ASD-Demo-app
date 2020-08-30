@@ -36,9 +36,9 @@
                 
                 
                     </td></tr>
-                <tr><td></td><td><input type="submit" value="Update"></td></tr>
+        <tr><td></td><td><input class="in_btn" type="submit" value="Update"></td></tr>
             </table>
-        </form>
+        </form><br>
         </div>
                     <a href="index.html" >Main page</a>  
     </body>

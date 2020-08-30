@@ -17,7 +17,7 @@
         
         <div class="content">
             <br><br>
-            <div class="header"> <h1>Weather Forecast</h1></div>
+            <center><div class="header"> <h1>Weather Forecast</h1></div></center>
         
             
         <div class="sidenav">

@@ -63,4 +63,11 @@ public class DBManager
        return 1;
    }
     }
+
+
+public void updateUser(int userId, int locationId, String user_password, String email, String firstname, String lastname) throws SQLException { 
+        st.executeUpdate("UPDATE WEATHERNOW.USER SET LOCATIONID='"+locationId+"',PASSWORD='"+user_password+"',EMAIL='"+email+"',FIRSTNAME='"+firstname+"',LASTNAME="+lastname+" WHERE USERID='"+userId+"'");
+   //code for update-operation   
+
+    }  
 }

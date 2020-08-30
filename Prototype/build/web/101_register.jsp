@@ -22,8 +22,10 @@
         String State = (String) session.getAttribute("State");
         int LocationID = (Integer) session.getAttribute("LocationID");
 %>
-        <h1>Register</h1>
-<form method="POST">
+      <center>     
+          <h1 class="header">Register</h1><br><br>
+          <div class="regbox"><br>
+        <form method="POST">
 <table>
 <tr>
 <td><p class="subtitle"><label for="Email">Email </label></p></td>
@@ -55,15 +57,15 @@
     <td>&nbsp;</td> 
     <td><p><input type="State" name="State" ReadOnly ="True" value=<%= State.trim()%>></p></td>
     <td>&nbsp;</td> 
-    <td><button type="submit" formaction="ListLocation_Servlet"> Select </td>               
+    <td><button class="button" type="submit" formaction="ListLocation_Servlet"> Select </td>             
 </tr>
-</table
-<p><button type="submit" formaction="Registration_Servlet" ><h2> Add <h2></button><p> </form>
-
-
-                   
+</table><br>
+<p><button class="button" type="submit" formaction="Registration_Servlet" ><h2> Register <h2></button><p> </form><br>
+</div>
+   
                     
-<a>Go back to main menu </a>
-<a href="index.html"> click here!</a>
+    <br><a>Go back to main menu </a>
+<a href="index.html"> click here!</a> 
+    </center>
     </body>
 </html>

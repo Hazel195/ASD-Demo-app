@@ -4,7 +4,7 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
 /* 
-    Created on : 2020. 8. 24, 오후 1:35:31
+    Created on : 2020. 8. 24, �ㅽ썑 1:35:31
     Author     : hazel
 */
 
@@ -75,8 +75,34 @@ h1 {
   margin-left: -80px;
 }
 
-button {
-    border-radius: 25px;
+
+.regbox {
+    background-color: #c4bbbb;
+    width: 450px;
 }
 
+.button {
+    background:     #e67f7f;
+    border-radius: 7px;
+    box-shadow:    0 2px #444444;
+    padding:       5px 10px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 10px/1 "Roboto", sans-serif;
+    font-size: 10px;
+    text-align:    center;
+    border: none;
+    
+}
 
+.button:hover {
+    background:    #e06666;
+    border-radius: 7px;
+    box-shadow:    0 0px #444444;
+    padding:       5px 10px;
+    color:         #ffffff;
+    display:       inline-block;
+    font:          normal bold 10px/1 "Roboto", sans-serif;
+    font-size: 10px;
+    text-align:    center;
+}

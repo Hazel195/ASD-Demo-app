@@ -14,20 +14,24 @@
         <title>Weather Analysis Page</title>
     </head>
     <body>
-        <div class="content">
-            <br><br>
-            <center><div class="header"> <h1>Weather Analysis</h1></div></center>
         
         <div class="sidenav">
             <br><br>
-            <a href="index.html">HOME</a>
+            <a href="/Prototype">HOME</a>
             <form name="submitForm" method="POST" action="CurrentWeather_Servlet">
             <input type="hidden" name="param1" value="param1Value">
             <a HREF="javascript:document.submitForm.submit()">CURRENT WEATHER</a></form>
             <a href="501_weather_forecast.jsp">WEATHER FORECAST</a>
             <a href="601_weather_history.jsp">WEATHER HISTORY</a>
             <a href="901_weather_analysis.jsp">WEATHER ANALYSIS</a>
+            <a href="301_account_management.jsp">ACCOUNT MANAGEMENT</a>
         </div>
+        
+        
+        <div class="content">
+            <br><br>
+            <center><div class="header"> <h1>Weather Analysis</h1></div></center>
+
             
         </div>
     </body>

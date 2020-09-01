@@ -20,6 +20,18 @@
     </head>
 
     <Body>
+        
+        <div class="sidenav">
+            <br><br>
+            <a href="/Prototype">HOME</a>
+            <form name="submitForm" method="POST" action="CurrentWeather_Servlet">
+            <input type="hidden" name="param1" value="param1Value">
+            <a HREF="javascript:document.submitForm.submit()">CURRENT WEATHER</a></form>
+            <a href="501_weather_forecast.jsp">WEATHER FORECAST</a>
+            <a href="601_weather_history.jsp">WEATHER HISTORY</a>
+            <a href="901_weather_analysis.jsp">WEATHER ANALYSIS</a>
+            <a href="301_account_management.jsp">ACCOUNT MANAGEMENT</a>
+        </div>
         <table style="width: 70%" class="fl-table">
             
 <form action="" method="POST" >

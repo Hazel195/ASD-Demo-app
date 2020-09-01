@@ -39,14 +39,14 @@ public class EditServlet extends HttpServlet {
                                 session.setAttribute("user",user);
                                 manager.updateUser(userId, locationId, user_password, email, firstname, lastname);
                                 session.setAttribute("updated","Upadte was Successful");
-                                request.getRequestDispatcher("edit.jsp").include(request,response);
+                                request.getRequestDispatcher("301_account_management.jsp").include(request,response);
                             }else{
                                 session.setAttribute("updated","Upadte was NOT Successful");
-                                request.getRequestDispatcher("edit.jsp").include(request,response);
+                                request.getRequestDispatcher("301_account_management.jsp").include(request,response);
                             }
                      } catch (SQLException ex) {           
                            Logger.getLogger(EditServlet.class.getName()).log(Level.SEVERE, null, ex);       
                      }
-                     response.sendRedirect("edit.jsp");
+                     response.sendRedirect("301_account_management.jsp");
      }
 }

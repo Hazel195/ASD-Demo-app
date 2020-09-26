@@ -19,7 +19,6 @@
         String Password = (String) session.getAttribute("Password");
         String Firstname = (String) session.getAttribute("Firstname");
         String Lastname = (String) session.getAttribute("Lastname");
-        String State = (String) session.getAttribute("State");
         int LocationID = (Integer) session.getAttribute("LocationID");
         String existErr = (String) session.getAttribute("existErr");
 	String Region = (String) session.getAttribute("Region");

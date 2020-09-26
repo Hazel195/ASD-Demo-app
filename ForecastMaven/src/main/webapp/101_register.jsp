@@ -22,6 +22,7 @@
         String State = (String) session.getAttribute("State");
         int LocationID = (Integer) session.getAttribute("LocationID");
         String existErr = (String) session.getAttribute("existErr");
+	String Region = (String) session.getAttribute("Region");
 %>
       <center>     
           <h1 class="header">Register</h1><span><%=(existErr != null ? existErr : "")%></span><br>
@@ -57,6 +58,9 @@
 <tr>
     <td><p class="subtitle">Location</p></td>
     <td>&nbsp;</td> 
+    <td><p><input type="Region" name="Region" Required ="True" readonly="True" value=<%=(Region != null ? Region : "Select Location")%>></p></td>
+    <td><p hidden><input type="text" name="Redirect" value="101_register.jsp"></p></td>
+    <td>&nbsp;</td>
     <td><button type="submit" formaction="ListLocation_Servlet"> Select </td>               
 </tr>
 </table
